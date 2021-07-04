@@ -45,7 +45,6 @@ if (!isset($_SESSION['access_token'])) {
     $login_button = '<a href="' . $google_client->createAuthUrl() . '" style=" background: #dd4b39; border-radius: 5px; color: white; display: block; font-weight: bold; padding: 20px; text-align: center; text-decoration: none; width: 200px;">Login With Google</a>';
 }
 ?>
-
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -53,17 +52,15 @@ if (!isset($_SESSION['access_token'])) {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
 </head>
-
 <body>
     <div class="container">
         <br />
-        <h2 align="center" style="text-align: center;"> Inicio de sesión con <img src="img/logoGoogle.png"></h2>
+        <h2 align="center" style="text-align: center;"> Sign in with google <img src="img/logoGoogle.png"></h2>
         <br />
         <div>
             <div class="col-lg-4 offset-4">
