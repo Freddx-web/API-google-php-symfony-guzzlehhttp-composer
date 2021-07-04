@@ -46,7 +46,7 @@ Paso # 2 : En Api y Servicio, vallase en "credenciales" y pulsa "Crear Credencia
        - Orígenes autorizados de JavaScript -
        - URI de redireccionamiento autorizados -
        
-paso # 3 : En las credeciales de tu Api en Google `"Client ID"` y `"Client Secret key"` debe copiarla y pegarla e ir en el archivo `'config.php'`
+paso # 3 : En las credeciales de tu Api en Google `"Client ID"` y `"Client Secret key"` debe copiarla y pegarla e ir al archivo `'config.php'`
            junto con la `URL AUTORIZADO` de tu aplicacion y pegarlo donde indique las especificaciones.
 
     <?php
