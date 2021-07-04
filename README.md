@@ -1,53 +1,52 @@
 # API-google-php-symfony-guzzlehhttp-composer
 Credential income API for google / php / symfony / guzzlehhttp / composer
 
-Login con la API de google
-Inicio de sesión con la API de Google usando PHP
+Login with Google API using PHP
 
-Contenido y Archivos necesarios:
+Content and files required:
 
 - config.php -
 - index.php -
 - logout.php -
 
-Paso # 1 : Vallase en el enlace de developers Google : https://console.developers.google.com/ En API y servicios dale clid a (pantalla de consenguimiento) editara y llenara los datos de la nueva API en los siguientes pasos:
+Step # 1 : Go to the Google developers link : https://console.developers.google.com/ In API and services click `(consengument screen)` Edit and fill in the data for the new API in the following steps:
 
-       Pantalla de consentimiento de OAuth 
-       =============================================================
-           Nombre y logo de la App 
-             - Nombre de la aplicación -
-             - Correo electrónico de asistencia del usuario -
-             - Logotipo de la app -
+       OAuth consent screen
+       =========================================================
+           App name and logo
+              - Application name -
+              - User support email -
+              - App logo -
        
-           Dominio de la app
-             - Página principal de la App - 
-             - Vinculo a la Politica de Privacidad de la App -
-             - Vinculo a las Condiciones del servicio de la App -
+          Application domain
+               - Main page of the application -
+               - Link to the Privacy Policy of the Application -
+               - Link to the Application Terms of Service -
        
-           Dominio Autorizado 
-             - Agregar la ruta del Dominio de su App -
-             - Información de contacto del desarrollador
+          Authorized domain
+               - Add your application domain path -
+               - Developer contact information
              
        
-       Permisos
-       ==============================================================
-             - Agregara o Quitara los permisos de la Api -
+       Permissions
+       =========================================================
+                - Add or remove API permissions -
              
              
              
-       Usuarios de prueba
-       ==============================================================
-             - Guardar y continuar - 
+       Test users
+       =========================================================
+                - Save and continue -
              
-Paso # 2 : En Api y Servicio, vallase en `Credenciales` y pulsa `"Crear Credenciales"`. En `"ID de Cliente de OAuth"`, especificara las caracteristicas de su App para su API
+Step # 2: In Api and Service, go to `Credentials` and press` "Create Credentials" `. In `" OAuth Client ID "`, you will specify the characteristics of your App for your API
 
        - Tipo de Aplicación -
        - Nombre (cliente web) -
        - Orígenes autorizados de JavaScript URL -
        - URL de redireccionamiento autorizados -
        
-Paso # 3 : En las credeciales de tu Api en Google `"Client ID"` y `"Client Secret key"` debe copiarla y pegarla e ir al archivo `'config.php'`
-           junto con la `URL AUTORIZADO` de tu aplicacion y pegarlo donde indique las especificaciones.
+Step # 3 : In the credeciales of your Api in Google `" Client ID "` and `" Client Secret key "` you must copy and paste it and go to the file `'config.php'`
+           along with the `AUTHORIZED URL` of your app and paste it where it specifies.
 
     <?php
 
@@ -76,15 +75,14 @@ Paso # 3 : En las credeciales de tu Api en Google `"Client ID"` y `"Client Secre
 
     ?> 
     
-Paso # 4 : Iniciar session en `http://localhost/index.php`
+Step # 4 : Login in `http://localhost/index.php`
        
        
-       
- 
-enlace de libreria de Api para Google : https://github.com/Coyaks/Login-con-la-API-de-google
+   
+Api library link for Google: https://github.com/Coyaks/Login-con-la-API-de-google
 
-Guia e Instrucciones de configuraciob de Api : http://www.thapatechnical.com/2020/04/login-with-google-account-using-php_4.html
+API setup instruction guide: http://www.thapatechnical.com/2020/04/login-with-google-account-using-php_4.html
 
-para mas informacion vease el Tutorial de Youtube : https://www.youtube.com/watch?v=iUpiWOh4vlE&ab_channel=MenteInform%C3%A1tica
+for more information see the Youtube Tutorial: https://www.youtube.com/watch?v=iUpiWOh4vlE&ab_channel=MenteInform%C3%A1tica
 
-Política de Privacidad - Privacy Policy Condiciones del Servicio - Terms of Service
+
