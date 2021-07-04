@@ -6,9 +6,11 @@ Inicio de sesión con la API de Google usando PHP
 
 Contenido y Archivos necesarios:
 
-config.php
-index.php
-logout.php
+- config.php -
+- index.php -
+- logout.php -
+
+
 Paso # 1 : Vallase en el enlace de developers Google : https://console.developers.google.com/ En API y servicios dale clid a (pantalla de consenguimiento) editara y llenara los datos de la nueva API en los siguientes pasos:
 
        Pantalla de consentimiento de OAuth 
