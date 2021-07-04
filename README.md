@@ -10,7 +10,6 @@ Contenido y Archivos necesarios:
 - index.php -
 - logout.php -
 
-
 Paso # 1 : Vallase en el enlace de developers Google : https://console.developers.google.com/ En API y servicios dale clid a (pantalla de consenguimiento) editara y llenara los datos de la nueva API en los siguientes pasos:
 
        Pantalla de consentimiento de OAuth 
@@ -39,6 +38,7 @@ Paso # 1 : Vallase en el enlace de developers Google : https://console.developer
        Usuarios de prueba
        ==============================================================
              - Guardar y continuar - 
+             
 Paso # 2 : En Api y Servicio, vallase en "credenciales" y pulsa "Crear Credenciales". En (ID de Cliente de OAuth), especificara las caracteristicas de su App
 
        - Tipo de Aplicación -
@@ -46,7 +46,7 @@ Paso # 2 : En Api y Servicio, vallase en "credenciales" y pulsa "Crear Credencia
        - Orígenes autorizados de JavaScript -
        - URI de redireccionamiento autorizados -
        
-paso # 3 : En las credeciales de tu Api en Google `"Client ID"` y `"Client Secret key"` debe copiarla y pegarla e ir al archivo `'config.php'`
+Paso # 3 : En las credeciales de tu Api en Google `"Client ID"` y `"Client Secret key"` debe copiarla y pegarla e ir al archivo `'config.php'`
            junto con la `URL AUTORIZADO` de tu aplicacion y pegarlo donde indique las especificaciones.
 
     <?php
@@ -75,6 +75,8 @@ paso # 3 : En las credeciales de tu Api en Google `"Client ID"` y `"Client Secre
         $google_client->addScope('profile');
 
     ?> 
+    
+Paso # 4 : Iniciar session en `http://localhost/index.php`
        
        
        
