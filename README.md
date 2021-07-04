@@ -49,7 +49,7 @@ Paso # 2 : En Api y Servicio, vallase en "credenciales" y pulsa "Crear Credencia
 paso # 3 : En las credeciales de la Api de `"Client ID"` y `"Client Secret key"` debe copiarla y pegarla e ir en el archivo `'config.php'`
            con la URL AUTORIZADO:
 
- <?php
+  <?php
 
         //start session on web page
         session_start();
@@ -74,7 +74,7 @@ paso # 3 : En las credeciales de la Api de `"Client ID"` y `"Client Secret key"`
 
         $google_client->addScope('profile');
 
- ?> 
+  ?> 
        
        
        
