@@ -45,14 +45,13 @@ Paso # 2 : En Api y Servicio, vallase en "credenciales" y pulsa "Crear Credencia
        - Nombre (cliente web) -
        - Orígenes autorizados de JavaScript -
        - URI de redireccionamiento autorizados -
-paso # 3 : Deberas copiar las credeciales de Api ir al archivo 'config.php'
+       
+paso # 3 : Debes copiar las credeciales de Api "Client ID" y "Client Secret key" ir al archivo 'config.php'
 
     <?php
 
         //start session on web page
         session_start();
-
-       
 
         // Include Google Client Library for PHP autoload file
         require_once 'vendor/autoload.php';
