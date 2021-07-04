@@ -65,7 +65,7 @@ Step # 3 : In the credeciales of your Api in Google `" Client ID "` and `" Clien
         $google_client->setClientSecret('---------> SECRET KEY <---------');
 
         // Set the OAuth 2.0 Redirect URI | URL AUTORIZADO
-        $google_client->setRedirectUri('---------> URL AUTORIZADO <---------');
+        $google_client->setRedirectUri('---------> AUTHORIZED URL <---------');
 
         // to get the email and profile 
         $google_client->addScope('email');
