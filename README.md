@@ -39,12 +39,12 @@ Paso # 1 : Vallase en el enlace de developers Google : https://console.developer
        ==============================================================
              - Guardar y continuar - 
              
-Paso # 2 : En Api y Servicio, vallase en "credenciales" y pulsa "Crear Credenciales". En (ID de Cliente de OAuth), especificara las caracteristicas de su App
+Paso # 2 : En Api y Servicio, vallase en `Credenciales` y pulsa `"Crear Credenciales"`. En `"ID de Cliente de OAuth"`, especificara las caracteristicas de su App para su API
 
        - Tipo de Aplicación -
        - Nombre (cliente web) -
-       - Orígenes autorizados de JavaScript -
-       - URI de redireccionamiento autorizados -
+       - Orígenes autorizados de JavaScript URL -
+       - URL de redireccionamiento autorizados -
        
 Paso # 3 : En las credeciales de tu Api en Google `"Client ID"` y `"Client Secret key"` debe copiarla y pegarla e ir al archivo `'config.php'`
            junto con la `URL AUTORIZADO` de tu aplicacion y pegarlo donde indique las especificaciones.
@@ -80,7 +80,7 @@ Paso # 4 : Iniciar session en `http://localhost/index.php`
        
        
        
-       
+ 
 enlace de libreria de Api para Google : https://github.com/Coyaks/Login-con-la-API-de-google
 
 Guia e Instrucciones de configuraciob de Api : http://www.thapatechnical.com/2020/04/login-with-google-account-using-php_4.html
