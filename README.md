@@ -1,7 +1,6 @@
 # API-google-php-symfony-guzzlehhttp-composer
-Credential income API for google / php / symfony / guzzlehhttp / composer
 
-Login with Google API using PHP
+Login with Google API using PHP, Symfony, Guzzlehttp, Composer
 
 Content and files required:
 
